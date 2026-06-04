@@ -1,21 +1,15 @@
-# Your Project's Title...
-Your project's description...
+# EDS Website
+
+AEM EDS project with Universal Editor support.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
 
-## Documentation
-
-Before using the aem-boilerplate, we recommend you to go through the documentation on [www.aem.live](https://www.aem.live/docs/), more specifically:
-1. [AEM Authoring](https://www.aem.live/docs/aem-authoring)
-2. [Universal Editor Tutorial](https://www.aem.live/developer/ue-tutorial)
-3. [Component Model Definitions](https://www.aem.live/developer/component-model-definitions)
-4. [Authoring Path Mapping](https://www.aem.live/developer/authoring-path-mapping)
+- Preview: https://main--eds-website--singhalgoru.aem.page/
+- Live: https://main--eds-website--singhalgoru.aem.live/
 
 ## Prerequisites
 
-- nodejs 20 or newer
+- Node.js 20 or newer
 - AEM Cloud Service release 2026.4 or newer
 
 ## Installation
@@ -24,8 +18,9 @@ Before using the aem-boilerplate, we recommend you to go through the documentati
 npm i
 ```
 
-## Linting
+## AEM Instance Setup
 
-```sh
-npm run lint
-```
+- [ ] Install [AEM Code Sync](https://github.com/apps/aem-code-sync)
+- [ ] Download site template from [xwalk releases](https://github.com/adobe-rnd/aem-boilerplate-xwalk/releases)
+- [ ] Create site: Title: EDS Website · Name: eds-website · GitHub: https://github.com/singhalgoru/eds-website
+- [ ] Open Universal Editor, verify authoring, Quick Publish
